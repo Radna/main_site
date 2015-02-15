@@ -56,6 +56,10 @@ a:focus {
     font-weight: 400;
 }
 
+.logo h1 {
+    background-color: #000000;
+}
+
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -83,7 +87,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.6);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -141,7 +145,8 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(0,0,0,.2);
+    color: rgba(244,81,30,.8);
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
@@ -305,7 +310,7 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/bg1.jpg) no-repeat top center;
+	background: url(../img/bg2.jpg) no-repeat top center;
 }
 
 #intro.intro {
