@@ -110,6 +110,14 @@ a:focus {
 	color: #fff;
 }
 
+.navbar-custom.top-nav-collapse ul.nav li a:hover,
+.navbar-custom.top-nav-collapse ul.nav li a:focus,
+.navbar-custom.top-nav-collapse ul.nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
+    color: rgba(244,81,30,.8);
+}
+
 .navbar-custom ul.nav ul.dropdown-menu {
 	  border-radius: 0;	
 }
@@ -147,12 +155,6 @@ a:focus {
     outline: 0;
     background-color: rgba(0,0,0,.2);
     color: rgba(244,81,30,.8);
-}
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
 }
 
 .navbar-toggle {
